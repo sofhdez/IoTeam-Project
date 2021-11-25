@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Built-By: kabar
+Build-Jdk: 16.0.1
+Class-Path: dependency-jars/org.eclipse.paho.client.mqttv3-1.2.5.jar dep
+ endency-jars/uncommons-maths-1.2.2a.jar dependency-jars/jcommon-1.0.12.
+ jar dependency-jars/jfreechart-1.0.8a.jar dependency-jars/json-simple-1
+ .1.jar dependency-jars/text-io-3.4.1.jar dependency-jars/slf4j-api-1.8.
+ 0-beta4.jar dependency-jars/jline-2.14.6.jar dependency-jars/awt-color-
+ factory-1.0.1.jar dependency-jars/ratpack-core-1.5.1.jar dependency-jar
+ s/ratpack-exec-1.5.1.jar dependency-jars/ratpack-base-1.5.1.jar depende
+ ncy-jars/guava-21.0.jar dependency-jars/netty-buffer-4.1.17.Final.jar d
+ ependency-jars/netty-common-4.1.17.Final.jar dependency-jars/netty-tran
+ sport-native-epoll-4.1.17.Final-linux-x86_64.jar dependency-jars/netty-
+ transport-native-unix-common-4.1.17.Final.jar dependency-jars/reactive-
+ streams-1.0.0.final.jar dependency-jars/netty-codec-http-4.1.17.Final.j
+ ar dependency-jars/netty-codec-4.1.17.Final.jar dependency-jars/netty-h
+ andler-4.1.17.Final.jar dependency-jars/netty-transport-4.1.17.Final.ja
+ r dependency-jars/netty-resolver-4.1.17.Final.jar dependency-jars/caffe
+ ine-2.4.0.jar dependency-jars/javassist-3.19.0-GA.jar dependency-jars/j
+ ackson-databind-2.8.9.jar dependency-jars/jackson-annotations-2.8.0.jar
+  dependency-jars/jackson-core-2.8.9.jar dependency-jars/jackson-datafor
+ mat-yaml-2.8.9.jar dependency-jars/jackson-datatype-guava-2.8.9.jar dep
+ endency-jars/snakeyaml-1.17.jar dependency-jars/jackson-datatype-jdk8-2
+ .8.9.jar dependency-jars/jackson-datatype-jsr310-2.8.9.jar dependency-j
+ ars/ratpack-session-1.5.1.jar dependency-jars/ratpack-guice-1.5.1.jar d
+ ependency-jars/guice-4.1.0.jar dependency-jars/javax.inject-1.jar depen
+ dency-jars/aopalliance-1.0.jar dependency-jars/guice-multibindings-4.1.
+ 0.jar
+Main-Class: br.com.gmltec.run.SimuRun
+Created-By: Maven Integration for Eclipse
+
