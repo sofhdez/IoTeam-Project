@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "root", "", "highcharts");
+$mysqli = new mysqli("localhost", "root", "root", "highcharts");
 
 /* verificar conexión */
 if (mysqli_connect_errno()) {
@@ -12,6 +12,3 @@ if (mysqli_connect_errno()) {
 /* crear una sentencia preparada */
 $stmt = $mysqli->prepare("SELECT COUNT(*)FROM highcharts WHERE name = 'apple'");
 $result = $stmt->execute();
-
-
-?>

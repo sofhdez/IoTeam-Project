@@ -1,16 +1,16 @@
 [
     {
-        "id": "e94eb63fb6490cfa",
+        "id": "a09139ddfa19d574",
         "type": "tab",
-        "label": "tester",
+        "label": "tester FINAL",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "4ae82f98c9afa392",
+        "id": "7b6ab1cc624bcf22",
         "type": "aedes broker",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "Basureros-Tec",
         "mqtt_port": "1883",
         "mqtt_ws_bind": "port",
@@ -30,14 +30,14 @@
         ]
     },
     {
-        "id": "7de4922b231f5c71",
+        "id": "ee0f426d8e94998b",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor0/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -46,19 +46,19 @@
         "y": 140,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "108a7b0c8d896d06",
+        "id": "8af90e01091396e2",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor1/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -67,19 +67,19 @@
         "y": 200,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "c5eeaa34c99883d9",
+        "id": "4a8dfe7837eabd64",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor2/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -88,19 +88,19 @@
         "y": 260,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "f13d6786dd86a9e0",
+        "id": "4119737a537df294",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor3/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -109,19 +109,19 @@
         "y": 320,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "ace6623e694556bd",
+        "id": "a5adbe1b8d3aa3d1",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor4/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -130,19 +130,19 @@
         "y": 380,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "35c8f7b9c241f309",
+        "id": "9e01e7ca01738dd9",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor5/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -151,19 +151,19 @@
         "y": 440,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "356fa8bc82bffe52",
+        "id": "e21bcac213cc979b",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor6/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -172,19 +172,19 @@
         "y": 500,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "7aade52beeb19853",
+        "id": "78b0caad45b4fe2e",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor7/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -193,19 +193,19 @@
         "y": 560,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "60fcb9f840129fb3",
+        "id": "9f08eaed24b13a61",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor8/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -214,19 +214,19 @@
         "y": 620,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "e5e30535716e24fb",
+        "id": "de0f4de8a2534250",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor9/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -235,16 +235,16 @@
         "y": 680,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "844b5a91e9d1a0b8",
+        "id": "8906e455e8485819",
         "type": "function",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "level-process-message",
-        "func": "var topic = msg.topic;\n\nvar rec_msg = msg.payload.toString();\nvar rec_msg_arr = rec_msg.split(\";\");\n\nvar measure_label;\nvar measure_val;\n\nvar time = rec_msg_arr[0].split(\"=\")[1];\nvar measure = Number(rec_msg_arr[1].split(\"=\")[1]);\nvar coord = rec_msg_arr[2].split(\"=\")[1];\n\nvar f_measure = \"meas_\".concat(topic);\nvar o_meas = flow.get(f_measure)||0;\n\nif (o_meas === \"verde\" || o_meas === \"amarillo\" ||  o_meas === \"rojo\" ||  o_meas === \"error\" ){\n    flow.set(f_measure, measure);\n}\nelse if (measure < 0 || measure > 100 ){\n    flow.set(f_measure, \"error\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"error\",\n    measure_val: measure,\n    //measure_value: measure,\n    SIDC: \"IOGA--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n}\nelse if (measure < 20){\n    flow.set(f_measure, \"verde\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"verde\",\n    measure_val: measure,\n    //measure_value: measure,\n    SIDC: \"INGC--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n}\nelse if (measure >= 20 && measure <= 75){\n    flow.set(f_measure, \"amarillo\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"amarillo\",\n    measure_val: measure,\n    //measure_measure: measure,\n    SIDC: \"INGD--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n}\nelse if (measure > 75){\n    flow.set(f_measure, \"rojo\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"rojo\",\n    measure_val: measure,\n    //measure_value: measure,\n    SIDC: \"INGX--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n    \n}\n\nelse{\n    flow.set(f_measure, measure);\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    SIDC: \"ENOPA-------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n    \n}\n\n/*\nmsg.payload = \n{    name:topic.split(\"/\")[0],\nmeasure_value: flow.get(f_measure),\nSIDC: \"ENOPA--------\",\noptions: {\"fillOpacity\":0.8,\n\"additionalInformation\":flow.get(f_measure)},\nlat: Number(coord.split(\":\")[0]),\nlon: Number(coord.split(\":\")[1])\n}\n*/\n\nreturn msg;",
+        "func": "var topic = msg.topic;\n\nvar rec_msg = msg.payload.toString();\nvar rec_msg_arr = rec_msg.split(\";\");\n\nvar measure_label;\nvar measure_val;\n\nvar time = rec_msg_arr[0].split(\"=\")[1];\nvar measure = Number(rec_msg_arr[1].split(\"=\")[1]);\nvar coord = rec_msg_arr[2].split(\"=\")[1];\n\nvar porcentaje = 100 - (measure * 100 / 65);\n\nvar f_measure = \"meas_\".concat(topic);\nvar o_meas = flow.get(f_measure)||0;\n\nif (o_meas === \"verde\" || o_meas === \"amarillo\" ||  o_meas === \"rojo\" ||  o_meas === \"error\" ){\n    flow.set(f_measure, measure);\n}\nelse if (porcentaje < 0 || porcentaje > 100 ){\n    flow.set(f_measure, \"error\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"error\",\n    measure_val: measure,\n    //measure_value: measure,\n    SIDC: \"IOGA--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n}\nelse if (porcentaje < 20){\n    flow.set(f_measure, \"verde\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"verde\",\n    measure_val: measure,\n    //measure_value: measure,\n    SIDC: \"INGC--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n}\nelse if (porcentaje >= 20 && porcentaje <= 75){\n    flow.set(f_measure, \"amarillo\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"amarillo\",\n    measure_val: measure,\n    //measure_measure: measure,\n    SIDC: \"INGD--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n}\nelse if (porcentaje > 75){\n    flow.set(f_measure, \"rojo\");\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    measure_label: \"rojo\",\n    measure_val: measure,\n    //measure_value: measure,\n    SIDC: \"INGX--------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n    \n}\n\nelse{\n    flow.set(f_measure, measure);\n    \n    msg.payload = \n    {    name:topic.split(\"/\")[0],\n    measure_value: flow.get(f_measure),\n    SIDC: \"ENOPA-------\",\n    options: {\"fillOpacity\":0.8,\n    \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n    }\n    \n}\n\n/*\nmsg.payload = \n{    name:topic.split(\"/\")[0],\nmeasure_value: flow.get(f_measure),\nSIDC: \"ENOPA--------\",\noptions: {\"fillOpacity\":0.8,\n\"additionalInformation\":flow.get(f_measure)},\nlat: Number(coord.split(\":\")[0]),\nlon: Number(coord.split(\":\")[1])\n}\n*/\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -254,15 +254,15 @@
         "y": 440,
         "wires": [
             [
-                "4e2af85aae359d34",
-                "f0145088b10ebc37"
+                "f20a6874432dfef5",
+                "6dc3682b41c40fd5"
             ]
         ]
     },
     {
-        "id": "4e2af85aae359d34",
+        "id": "f20a6874432dfef5",
         "type": "worldmap",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "lat": "19.283698105248043",
         "lon": "-99.1350945369661",
@@ -291,14 +291,14 @@
         "wires": []
     },
     {
-        "id": "f49b29acdd1afd81",
+        "id": "901c1d1d4af03912",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor10/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -307,19 +307,19 @@
         "y": 740,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "263a475d8f27e84d",
+        "id": "f851e5f4f3b7de9e",
         "type": "mqtt in",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "topic": "sensor11/ultrasom",
         "qos": "0",
         "datatype": "auto",
-        "broker": "ef911ba9c780d782",
+        "broker": "f6c57be57cd6424b",
         "nl": false,
         "rap": true,
         "rh": 0,
@@ -328,14 +328,14 @@
         "y": 800,
         "wires": [
             [
-                "844b5a91e9d1a0b8"
+                "8906e455e8485819"
             ]
         ]
     },
     {
-        "id": "f0145088b10ebc37",
+        "id": "6dc3682b41c40fd5",
         "type": "json",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "property": "payload",
         "action": "",
@@ -344,15 +344,15 @@
         "y": 540,
         "wires": [
             [
-                "bd773d4aa48cb6b3",
-                "075751b8548fa983"
+                "db36e6063bac1b42",
+                "65c25b77403a14c8"
             ]
         ]
     },
     {
-        "id": "bd773d4aa48cb6b3",
+        "id": "db36e6063bac1b42",
         "type": "function",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "prepare email basurero",
         "func": "var rec_msg = msg.payload.toString();\n\nvar msgJson = JSON.parse(rec_msg);\n\nvar measure_value = msgJson.measure_value;\nvar name = msgJson.name;\n\nvar yellow = \"\\nContainer is between 20% and 75%.\\nWe suggest scheduling garbage collection.\";\nvar red = \"\\nContainer is over 75%. \\nWe suggest an immediate garbage collection.\";\n\nif (measure_value === \"error\") {\n    msg.payload = \"error -> \".concat(name);\n}\n\nelse if (measure_value === \"verde\"){\n    msg.payload = \"verde -> \".concat(name);\n}\nelse if(measure_value === \"amarillo\"){\n    msg.topic = \"amarillo -> \".concat(name)\n    msg.payload = \"amarillo -> \".concat(name).concat(yellow);\n}\nelse if(measure_value === \"rojo\"){\n    \"rojo -> \".concat(name);\n    msg.payload = \"rojo -> \".concat(name).concat(red);\n}\nelse {\n    msg.payload = \"null\";\n}\n\nreturn msg;",
         "outputs": 1,
@@ -364,17 +364,17 @@
         "y": 440,
         "wires": [
             [
-                "da1d9602d325c57c",
-                "d8d2ff1e3788590e",
-                "6fe9ab6903b3c0bf",
-                "3ebee8e34f3b0754"
+                "7b277c363ffeb1cc",
+                "0164404f05aaad65",
+                "6927af335056f0fa",
+                "1d6d6bc419137c8c"
             ]
         ]
     },
     {
-        "id": "d8d2ff1e3788590e",
+        "id": "0164404f05aaad65",
         "type": "switch",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "amarillo",
         "property": "payload",
         "propertyType": "msg",
@@ -392,14 +392,14 @@
         "y": 440,
         "wires": [
             [
-                "9304803b76af55dc"
+                "195cf3522b65e8a2"
             ]
         ]
     },
     {
-        "id": "6fe9ab6903b3c0bf",
+        "id": "6927af335056f0fa",
         "type": "switch",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "rojo",
         "property": "payload",
         "propertyType": "msg",
@@ -417,14 +417,14 @@
         "y": 520,
         "wires": [
             [
-                "9304803b76af55dc"
+                "195cf3522b65e8a2"
             ]
         ]
     },
     {
-        "id": "da1d9602d325c57c",
+        "id": "7b277c363ffeb1cc",
         "type": "switch",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "verde",
         "property": "payload",
         "propertyType": "msg",
@@ -442,14 +442,14 @@
         "y": 360,
         "wires": [
             [
-                "9304803b76af55dc"
+                "195cf3522b65e8a2"
             ]
         ]
     },
     {
-        "id": "9304803b76af55dc",
+        "id": "195cf3522b65e8a2",
         "type": "debug",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -459,14 +459,14 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1420,
+        "x": 1410,
         "y": 320,
         "wires": []
     },
     {
-        "id": "3ebee8e34f3b0754",
+        "id": "1d6d6bc419137c8c",
         "type": "switch",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "error",
         "property": "payload",
         "propertyType": "msg",
@@ -484,14 +484,14 @@
         "y": 600,
         "wires": [
             [
-                "9304803b76af55dc"
+                "195cf3522b65e8a2"
             ]
         ]
     },
     {
-        "id": "4b2e4db28c09d756",
+        "id": "b513fc7a0e328af7",
         "type": "e-mail",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "server": "smtp.gmail.com",
         "port": "465",
         "secure": true,
@@ -505,21 +505,21 @@
         "wires": []
     },
     {
-        "id": "3a95a6f93f449908",
+        "id": "e8d4b0c433e13dcc",
         "type": "mysql",
-        "z": "e94eb63fb6490cfa",
-        "mydb": "e6aa4ea1cfb1daca",
+        "z": "a09139ddfa19d574",
+        "mydb": "1d65686d9f8e299b",
         "name": "my-sql-sensors",
         "x": 1040,
-        "y": 740,
+        "y": 720,
         "wires": [
             []
         ]
     },
     {
-        "id": "075751b8548fa983",
+        "id": "65c25b77403a14c8",
         "type": "function",
-        "z": "e94eb63fb6490cfa",
+        "z": "a09139ddfa19d574",
         "name": "mysql-function",
         "func": "var rec_msg = msg.payload.toString();\n\nvar msgJson = JSON.parse(rec_msg);\n\nvar nodeid = msgJson.name;\nvar measure_value = msgJson.measure_val;\nvar measure_label = msgJson.measure_label;\n//var sensor_type = msgJson.sensor_type;\n\nmsg.topic = \"INSERT INTO `sensores_prueba`.`data_sensors` (node_id,meas_label,meas_raw_value) VALUES ( ' \" + nodeid + \"', '\" + measure_label + \"', '\" + measure_value + \"');\";\n\n\nreturn msg;",
         "outputs": 1,
@@ -531,15 +531,36 @@
         "y": 640,
         "wires": [
             [
-                "3a95a6f93f449908"
+                "e8d4b0c433e13dcc"
             ]
         ]
     },
     {
-        "id": "ef911ba9c780d782",
+        "id": "c0ef828c57b1df5b",
+        "type": "mqtt in",
+        "z": "a09139ddfa19d574",
+        "name": "",
+        "topic": "sensor12/ultrasom",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f6c57be57cd6424b",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 170,
+        "y": 900,
+        "wires": [
+            [
+                "8906e455e8485819"
+            ]
+        ]
+    },
+    {
+        "id": "f6c57be57cd6424b",
         "type": "mqtt-broker",
-        "name": "localhost:1883",
-        "broker": "localhost",
+        "name": "",
+        "broker": "192.168.68.107",
         "port": "1883",
         "clientid": "",
         "autoConnect": true,
@@ -562,13 +583,13 @@
         "sessionExpiry": ""
     },
     {
-        "id": "e6aa4ea1cfb1daca",
+        "id": "1d65686d9f8e299b",
         "type": "MySQLdatabase",
-        "name": "",
+        "name": "sensores_prueba FINAL",
         "host": "127.0.0.1",
         "port": "3306",
         "db": "sensores_prueba",
         "tz": "",
-        "charset": "UTF8MB4"
+        "charset": "UTF8"
     }
 ]
