@@ -1,0 +1,626 @@
+
+body{
+    background: #EFEFEF;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-size: 1500px;
+    background-position:top;
+    background-position:0px;
+   
+    
+    
+}
+
+#map { height: 650px;
+    width: 900px;
+    left: 500px;
+    top: -395px;}
+
+
+.containercoloruser{
+        height: 150px;
+        width: 320px;
+        left: 500px;
+        top: -395px;
+        left: 3000px;
+        background:rgb(44, 13, 102);
+    }
+       
+
+body2{
+
+    display : flex;
+    justify-content: center;
+    background:#EFEFEF;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-size: 1300px;
+
+    
+    
+}
+
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Martel', serif;
+}
+
+
+
+form{ /* Cuadro blanco de LOGIN */
+    width: 400px;
+    border: none;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    position: center;
+    box-shadow: 3px 3px 12px #808080 ;  
+    font-family:'Nunito', sans-serif;
+     
+}
+
+
+form2{ /* Cuadro gris de HOME */
+    width: 1300px;
+    height: 650px;
+    font-size: 20px;
+    background:#EFEFEF;
+    border-radius: 15px;
+    padding: 30px;
+    position: absolute;
+    top: 120px;
+    right: 420px;
+}
+
+.container{ /*gráfica*/
+     width: 1000px;
+     border: none;
+     padding: 30px;
+    
+     border-radius: 15px;
+     position: center;
+     position: relative;
+     right: 225px;
+     top: 60px;
+   
+ }
+ 
+ .container2{ /*mapa*/
+    width: 800px;
+    border: none;
+    padding: 30px;
+    background:#EFEFEF ;
+    border-radius: 15px;
+    position: relative;
+    left: 1000px;
+    top: 0px;
+  
+}
+
+
+header{ /* Header */
+    width: 1800px;
+    height: 90px;
+    border: none;
+    padding: 15px;
+    background: white;
+    border-radius: 15px;
+    top: -10px;
+    position: center;
+    position: relative;
+   
+}
+
+
+
+h2{/* Log in */
+    text-align: center;
+    font-family:serif;
+    font-weight: 1;
+    font-size: 35px;   
+}
+
+input{
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+label{
+    color:#888;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+
+button{
+    float: right;
+    background: #02894B;
+    padding: 10px 20px;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border:none;
+    
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.error{
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius:5px;
+    
+}
+
+h1{  /* Hello Usuario */ 
+    
+   font-family:'Nunito', sans-serif;
+    font-weight: lighter;
+   color: #44444C;
+   text-align:left;
+    top: 10px;
+  
+    position:absolute;
+   
+}
+
+a{
+    font-family: 'Nunito', sans-serif;
+    background: #fff;
+    padding: 8px 15px;
+    color: #8C8C8C;
+    font-size:20px;
+    border-radius: 5px;
+    border:none;
+    text-decoration: none;
+    position: absolute;
+    top: 15px;
+    left: 1650px;
+    
+}
+a:hover{
+    opacity: .7;
+}
+
+#reloj{
+    color:#888;
+    font-size: 25px;;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    border-radius: 3px;
+    top: -5px;
+    left: 500px;
+    
+}
+
+
+#date{
+    color:#888;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    border-radius: 3px;
+    top: -5px;
+    left: 800px;
+}
+
+
+
+form3{ /* Cuadro amarillo de HOME es momento de planear */
+    width: 150px;
+    height: 200px;
+ background: #fff;
+    border-radius: 0px;
+    padding: 5px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight: lighter;
+    color: red;
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    color: yellow;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+
+    text-align:center;
+}
+
+form3b{ /* Cuadro amarillo de HOME es momento de planear */
+    width: 150px;
+    height: 70px;
+   background: #fff;
+    border-radius: 0px;
+    padding: 0px;
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight: lighter;
+    color: red;
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    color: yellow;
+    text-align:center;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+}
+
+form4{ /* Cuadro rojo de HOME  Es momento de vaciar*/
+    width: 150px;
+    height: 200px;
+ background: #fff;
+    border-radius: 0px;
+    padding: 5px;
+    position: absolute;
+     top: 70px;
+    right: 190px;
+ 
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    /*nivel optimo color*/
+    color: #888;
+    text-align:center;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+}
+form4b{ /* Cuadro rojo de HOME  Es momento de vaciar*/
+    width: 150px;
+    height: 70px;;
+ background: #fff;
+    border-radius: 0px;
+    padding: 0px;
+    position: absolute;
+     top: -10px;
+    right: 190px;
+ 
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    /*nivel optimo color*/
+    color: #888;
+    text-align:center;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+}
+
+
+
+form6{ /* Cuadro verde de HOME  Es momento de vaciar*/
+    width: 150px;
+   height: 200px;
+   background: #fff;
+   border-radius: 0px;
+    padding: 5px;
+    position: absolute;
+      top: 70px;
+    right: 360px;
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    /*nivel optimo color*/
+    color: #888;
+    text-align:center;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+}
+form6b{ /* Cuadro verde de HOME  Es momento de vaciar*/
+    width: 150px;
+    height: 70px;;
+ background: #fff;
+    border-radius: 0px;
+    padding: 0px;
+    position: absolute;
+     top: -10px;
+    right: 360px;
+    font-size: 18px;
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    /*nivel optimo color*/
+    color: #888;
+    text-align:center;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+}
+form5{ /* Cuadro  de HOME */
+    width: 200px;
+    color:#EFEFEF;
+    font-size: 60px;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    top: 480px;
+    right: -100px;
+    font-size: 38px;
+    font-family:'Nunito', sans-serif;
+    box-shadow: 1px 1px 12px #a6a6a6
+   
+    
+    
+}
+
+
+form7{ /* Cuadro blanco de 3 tablitas */
+    width: 530px;
+    height: 280px;
+    font-family:'Nunito', sans-serif;
+  
+    border-radius: 15px;
+    padding: 0px;
+    position: absolute;
+    top: 120px;
+    right: 180px;
+    color: #888;
+  
+}
+
+
+.containerbutton{
+  
+    border: none;
+    width: 200px;
+    height: 80px;
+    background:#EFEFEF ;
+    padding: 15px;
+    border-radius: 15px;
+    position: absolute;
+    right:-140px;
+    top: 600px;
+
+}
+
+texto{
+     background: #fff;
+    width: 320px;
+    height: 70px;
+    border-radius: 0px;
+    font-size:10px;
+    padding:15px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 40px;
+    text-align:center;
+    position: absolute;
+    top: 110px;
+    right: -150px;   
+}
+
+asignacion{
+background: #fff;
+   width: 320px;
+   height: 70px;
+   border-radius: 0px;
+   font-size: 40px;
+   padding:15px;
+   font-family:'Nunito', sans-serif;
+   font-weight: 40px;
+   text-align:center;
+   position: absolute;
+   top: 400px;
+   right: -150px;   
+}
+
+promedio{
+
+    width: 320px;
+    height: 150px;
+    background: #fff;
+    font-size: 140px;
+    padding: 60px;
+    border-radius: 0px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 40px;
+    text-align:center;
+    position: absolute;
+    top: 200px;
+    right: -150px;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+    
+   
+    
+}
+
+palomita{
+    background: #efefef;
+    width: 10px;
+    padding: 0;
+    position:absolute;
+    top: -75px;
+    right: 255px;
+   
+    
+}
+
+reloj{
+    background: #efefef;
+    width: 10px;
+    padding: 0;
+    position:absolute;
+    top: -75px;
+    right: 110px;
+   
+    
+}
+
+alarma{
+    background: #efefef;
+    width: 10px;
+    padding: 0;
+    position:absolute;
+    top: -75px;
+    right: -70px;
+   
+    
+}
+
+logo{
+    background: #efefef;
+    width: 10px;
+    padding: 0;
+    position:absolute;
+    top: 5px;
+    left: 80px;
+   
+    
+}
+
+
+
+
+
+mapa{ /* Cuadro aqua de HOME */
+    width: 600px;
+    height: 200px;
+    background: #85D2D0;
+    border-radius: 15px;
+    padding: 0px;
+    position: relative;
+    top: 220px;
+    right: -80px;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+    
+}
+
+
+
+
+
+
+table {
+            margin: 0 auto;
+            color: #fff;
+            font-size: 40px;
+            font-weight: 30px;
+    
+    
+          
+            
+           
+        }
+  
+       
+  
+        td { /* texto de tabla de3 */
+            
+            color: #888;
+            font-size: 13px;
+            margin: #fff;
+            font-family:'Nunito', sans-serif;
+            font-weight: lighter;
+        
+        }
+  
+        th{
+           
+            font-size: 30;
+            color: #fff;
+            color:888;
+            font-size: 13px;
+            font-weight: 30px;
+            
+            
+        }
+ 
+        
+        
+        
+        
+        td {/*datos de columnas*/
+            font-weight: bolder;
+            padding: 0px;
+            text-align: center;
+            font-size: 3;
+            
+             color: #000;
+         
+        }
+  
+        
+        
+ t {/*titulo de columna*/
+            font-weight: bolder;
+     font-family:'Nunito', sans-serif;
+            color: #000;
+            font-size: 16px;
+           
+ 
+        }
+
+fondografica{ /* Cuadro verde de HOME  Es momento de vaciar*/
+    width: 550px;
+    height: 550px;;
+ background: #fff;
+    border-radius: 0px;
+    padding: 0px;
+    position: absolute;
+     top: 110px;
+    right: 720px;
+     box-shadow: 1px 1px 12px #a6a6a6 ;
+}
+
+
+
+
+        
+         <tr>
+                <th>GFG UserHandle</th>
+                <th>Practice Problems</th>
+                <th>Coding Score</th>
+                <th>GFG Articles</th>
+            </tr>
+
+.blink {
+  animation: blink 2s infinite;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
