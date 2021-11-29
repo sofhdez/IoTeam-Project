@@ -208,7 +208,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
 
   <?php
 
-  $promedio = "SELECT AVG(value) FROM colors WHERE value>0 and value<65;";
+  $promedio = "SELECT AVG(value) FROM colors WHERE value>=0 and value<=65;";
   $resultado_prom = $mysqli->query($promedio);
   ?>
 
@@ -572,7 +572,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
             <tr>
               <!--FETCHING DATA FROM EACH 
                     ROW OF EVERY COLUMN-->
-              <td style="font-family:'Nunito', sans-serif; font-size: 50px; font-weight: 35px;"><?php echo number_format(100 - $rows['AVG(value)'], 2); ?> % </td>
+              <td style="font-family:'Nunito', sans-serif; font-size: 50px; font-weight: 35px;"><?php echo number_format(100 - (($rows['AVG(value)']) * 100 / 65), 2); ?> % </td>
 
 
 
