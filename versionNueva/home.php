@@ -394,7 +394,7 @@ var myChart = new Chart(ctx, {
     <a href = "logout.php"> Logout </a>
 
     <logo>
-    <img src="2.jpg" width="120" height="80" >  
+    <img src="logo_equipo.jpeg" width="100" height="80" >  
 
   </logo>
     
