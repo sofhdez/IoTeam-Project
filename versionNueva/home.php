@@ -27,11 +27,7 @@ if (mysqli_connect_errno()) {
    
     ?>
 
-<?php
 
-$promedio = "SELECT AVG(meas_raw_value) FROM data_sensors WHERE meas_raw_value>0 and meas_raw_value<100;";
-$resultado_prom = $mysqli->query($promedio);
-?>
 
 
 <?php  
@@ -42,8 +38,10 @@ $borrar = $borrar->execute();
 <?php  
 $crear = $mysqli->prepare("CREATE TABLE `colors` (
   `sensor` varchar(255) NOT NULL,
-  `color` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");
+  `color` varchar(255) NOT NULL,
+  `value` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+");
 
 $crear = $crear->execute();
 
@@ -51,20 +49,20 @@ $crear = $crear->execute();
 
 
 <?php  
-$llenardesensors = $mysqli->prepare("INSERT INTO `colors` (`sensor`, `color`) VALUES
-(' sensor0', ''),
-(' sensor1', ''),
-(' sensor2', ''),
-(' sensor3', ''),
-(' sensor4', ''),
-(' sensor5', ''),
-(' sensor6', ''),
-(' sensor7', ''),
-(' sensor8', ''),
-(' sensor9', ''),
-(' sensor10', ''),
-(' sensor11', ''),
-(' sensor12', '');");
+$llenardesensors = $mysqli->prepare("INSERT INTO `colors` (`sensor`, `color`,`value`) VALUES
+(' sensor0', '',0.0),
+(' sensor1', '',0.0),
+(' sensor2', '',0.0),
+(' sensor3', '',0.0),
+(' sensor4', '',0.0),
+(' sensor5', '',0.0),
+(' sensor6', '',0.0),
+(' sensor7', '',0.0),
+(' sensor8', '',0.0),
+(' sensor9', '',0.0),
+(' sensor10', '',0.0),
+(' sensor11', '',0.0),
+(' sensor12', '',0.0);");
 
 $llenardesensors = $llenardesensors->execute();
 
@@ -134,6 +132,87 @@ $sensor11 = $sensor11->execute()
 $sensor12 = $mysqli->prepare("UPDATE colors SET color = (SELECT data_sensors.meas_label from data_sensors `data_sensors` WHERE node_id = ' sensor12' order by id DESC limit 1) WHERE sensor = ' sensor12';");
 $sensor12 = $sensor12->execute()
 ?>
+
+
+
+
+
+
+
+
+
+<?php 
+$sensor0 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor0' order by id DESC limit 1) WHERE sensor = ' sensor0';");
+$sensor0 = $sensor0->execute()
+?>
+
+<?php 
+$sensor1 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor1' order by id DESC limit 1) WHERE sensor = ' sensor1';");
+$sensor1 = $sensor1->execute()
+?>
+
+<?php 
+$sensor2 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor2' order by id DESC limit 1) WHERE sensor = ' sensor2';");
+$sensor2 = $sensor2->execute()
+?>
+
+<?php 
+$sensor3 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor3' order by id DESC limit 1) WHERE sensor = ' sensor3';");
+$sensor3 = $sensor3->execute()
+?>
+
+<?php 
+$sensor4 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor4' order by id DESC limit 1) WHERE sensor = ' sensor4';");
+$sensor4 = $sensor4->execute()
+?>
+
+<?php 
+$sensor5 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor5' order by id DESC limit 1) WHERE sensor = ' sensor5';");
+$sensor5 = $sensor5->execute()
+?>
+
+<?php 
+$sensor6 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor6' order by id DESC limit 1) WHERE sensor = ' sensor6';");
+$sensor6 = $sensor6->execute()
+?>
+
+<?php 
+$sensor7 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor7' order by id DESC limit 1) WHERE sensor = ' sensor7';");
+$sensor7 = $sensor7->execute()
+?>
+
+<?php 
+$sensor8 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor8' order by id DESC limit 1) WHERE sensor = ' sensor8';");
+$sensor8 = $sensor8->execute()
+?>
+
+<?php 
+$sensor9 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor9' order by id DESC limit 1) WHERE sensor = ' sensor9';");
+$sensor9 = $sensor9->execute()
+?>
+
+<?php 
+$sensor10 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor10' order by id DESC limit 1) WHERE sensor = ' sensor10';");
+$sensor10 = $sensor10->execute()
+?>
+
+<?php 
+$sensor11 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor11' order by id DESC limit 1) WHERE sensor = ' sensor11';");
+$sensor11 = $sensor11->execute()
+?>
+
+<?php 
+$sensor12 = $mysqli->prepare("UPDATE colors SET value = (SELECT data_sensors.meas_raw_value from data_sensors `data_sensors` WHERE node_id = ' sensor12' order by id DESC limit 1) WHERE sensor = ' sensor12';");
+$sensor12 = $sensor12->execute()
+?>
+
+<?php
+
+$promedio = "SELECT AVG(value) FROM colors WHERE value>0 and value<100;";
+$resultado_prom = $mysqli->query($promedio);
+?>
+
+
 
 
 <?php
@@ -371,7 +450,7 @@ var myChart = new Chart(ctx, {
             <tr>
                 <!--FETCHING DATA FROM EACH 
                     ROW OF EVERY COLUMN-->
-                <td style= "font-family:'Nunito', sans-serif; font-size: 18px;"><?php echo $rows['sensor'];?></td>
+                <td style= "font-family:'Nunito', sans-serif; font-size: 18px; font-weight: 40px;"><?php echo $rows['sensor'];?></td>
                 
             </tr>
             <?php
@@ -408,7 +487,7 @@ var myChart = new Chart(ctx, {
             <tr >
                 <!--FETCHING DATA FROM EACH 
                     ROW OF EVERY COLUMN-->
-                <td style= "font-family:'Nunito', sans-serif; font-size: 18px;"> - <?php echo $rows['sensor'];?></td>
+                <td style= "font-family:'Nunito', sans-serif; font-size: 18px; font-weight: 40px;"> - <?php echo $rows['sensor'];?></td>
                 
             <?php
                 }
@@ -456,7 +535,7 @@ var myChart = new Chart(ctx, {
             <tr>
                 <!--FETCHING DATA FROM EACH 
                     ROW OF EVERY COLUMN-->
-                <td style= "font-family:'Nunito', sans-serif; font-size: 18px;"> - <?php echo $rows['sensor'];?></td>
+                <td style= "font-family:'Nunito', sans-serif; font-size: 18px; font-weight: 40px;"> - <?php echo $rows['sensor'];?></td>
                 
             <?php
                 }
@@ -491,7 +570,7 @@ var myChart = new Chart(ctx, {
             <tr>
                 <!--FETCHING DATA FROM EACH 
                     ROW OF EVERY COLUMN-->
-                <td style= "font-family:'Nunito', sans-serif; font-size: 15px;"><?php echo $rows['color'];?></td>
+                <td style= "font-family:'Nunito', sans-serif; font-size: 15px; font-weight: 20px;"><?php echo $rows['color'];?></td>
                 
             </tr>
             <?php
@@ -519,7 +598,7 @@ var myChart = new Chart(ctx, {
             <tr >
                 <!--FETCHING DATA FROM EACH 
                     ROW OF EVERY COLUMN-->
-                <td style= "font-family:'Nunito', sans-serif; font-size: 20px;"><?php echo $rows['AVG(meas_raw_value)'];?></td>
+                <td style= "font-family:'Nunito', sans-serif; font-size: 20px; font-weight: 40px;"><?php echo $rows['AVG(value)'];?></td>
                 
             </tr>
             <?php

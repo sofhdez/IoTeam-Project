@@ -81,12 +81,11 @@ form2{ /* Cuadro gris de HOME */
      width: 1000px;
      border: none;
      padding: 30px;
-    
      border-radius: 15px;
      position: center;
      position: relative;
      right: 225px;
-     top: 60px;
+     top: 140px;
    
  }
  
@@ -98,7 +97,7 @@ form2{ /* Cuadro gris de HOME */
     border-radius: 15px;
     position: relative;
     left: 1000px;
-    top: 0px;
+    top: 100px;
   
 }
 
@@ -225,7 +224,7 @@ a:hover{
 
 form3{ /* Cuadro amarillo de HOME es momento de planear */
     width: 150px;
-    height: 200px;
+    height: 350px;
  background: #fff;
     border-radius: 0px;
     padding: 5px;
@@ -266,7 +265,7 @@ form3b{ /* Cuadro amarillo de HOME es momento de planear */
 
 form4{ /* Cuadro rojo de HOME  Es momento de vaciar*/
     width: 150px;
-    height: 200px;
+    height: 350px;
  background: #fff;
     border-radius: 0px;
     padding: 5px;
@@ -305,7 +304,7 @@ form4b{ /* Cuadro rojo de HOME  Es momento de vaciar*/
 
 form6{ /* Cuadro verde de HOME  Es momento de vaciar*/
     width: 150px;
-   height: 200px;
+   height: 350px;
    background: #fff;
    border-radius: 0px;
     padding: 5px;
@@ -338,19 +337,19 @@ form6b{ /* Cuadro verde de HOME  Es momento de vaciar*/
      box-shadow: 1px 1px 12px #a6a6a6 ;
 }
 form5{ /* Cuadro  de HOME */
-    width: 200px;
+    width: 320px;
+    height:350px;
     color:#EFEFEF;
     font-size: 60px;
     height: 100px;
     background: #ffffff;
-    border-radius: 15px;
     padding: 5px;
     position: absolute;
-    top: 480px;
-    right: -100px;
+    top: 645px;
+    right: -150px;
     font-size: 38px;
     font-family:'Nunito', sans-serif;
-    box-shadow: 1px 1px 12px #a6a6a6
+    box-shadow: 1px 1px 12px #a6a6a6;
    
     
     
@@ -382,7 +381,7 @@ form7{ /* Cuadro blanco de 3 tablitas */
     border-radius: 15px;
     position: absolute;
     right:-140px;
-    top: 600px;
+    top: 750px;
 
 }
 
@@ -391,9 +390,10 @@ texto{
     width: 320px;
     height: 70px;
     border-radius: 0px;
-    font-size:10px;
+    font-size:28px;
     padding:15px;
     font-family:'Nunito', sans-serif;
+    box-shadow: 1px 1px 12px #a6a6a6 ;
     font-weight: 40px;
     text-align:center;
     position: absolute;
@@ -406,20 +406,21 @@ background: #fff;
    width: 320px;
    height: 70px;
    border-radius: 0px;
-   font-size: 40px;
+   font-size: 30px;
    padding:15px;
    font-family:'Nunito', sans-serif;
    font-weight: 40px;
    text-align:center;
    position: absolute;
-   top: 400px;
+   top: 570px;
    right: -150px;   
+   box-shadow: 1px 1px 12px #a6a6a6;
 }
 
 promedio{
 
     width: 320px;
-    height: 150px;
+    height: 350px;
     background: #fff;
     font-size: 140px;
     padding: 60px;
@@ -428,7 +429,7 @@ promedio{
     font-weight: 40px;
     text-align:center;
     position: absolute;
-    top: 200px;
+    top: 190px;
     right: -150px;
      box-shadow: 1px 1px 12px #a6a6a6 ;
     
@@ -491,9 +492,9 @@ mapa{ /* Cuadro aqua de HOME */
     border-radius: 15px;
     padding: 0px;
     position: relative;
-    top: 220px;
+    top: 380px;
     right: -80px;
-     box-shadow: 1px 1px 12px #a6a6a6 ;
+    box-shadow: 10px 10px 12px #a6a6a6 ;
     
 }
 
@@ -564,8 +565,8 @@ table {
 
 fondografica{ /* Cuadro verde de HOME  Es momento de vaciar*/
     width: 550px;
-    height: 550px;;
- background: #fff;
+    height: 700px;;
+    background: #fff;
     border-radius: 0px;
     padding: 0px;
     position: absolute;
