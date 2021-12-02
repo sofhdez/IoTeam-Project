@@ -6,10 +6,11 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-size: 1500px;
+    background-size: 2100px;
     background-position:top;
     background-position:0px;
-   
+    background-image: url("1.png") ;
+    background-repeat: no-repeat;
     
     
 }
@@ -69,7 +70,7 @@ form2{ /* Cuadro gris de HOME */
     width: 1300px;
     height: 650px;
     font-size: 20px;
-    background:#EFEFEF;
+    background:#F9FAFA;
     border-radius: 15px;
     padding: 30px;
     position: absolute;
@@ -142,7 +143,7 @@ label{
 
 button{
     float: right;
-    background: #02894B;
+    background: #164B5F;
     padding: 10px 20px;
     color:#fff;
     font-size: 15px;
@@ -338,14 +339,13 @@ form6b{ /* Cuadro verde de HOME  Es momento de vaciar*/
 }
 form5{ /* Cuadro  de HOME */
     width: 320px;
-    height:350px;
-    color:#EFEFEF;
+    height:230px;
+    color:#fff;
+    background: #fff;
     font-size: 60px;
-    height: 100px;
-    background: #ffffff;
     padding: 5px;
     position: absolute;
-    top: 645px;
+    top: 500px;
     right: -150px;
     font-size: 38px;
     font-family:'Nunito', sans-serif;
@@ -374,9 +374,9 @@ form7{ /* Cuadro blanco de 3 tablitas */
 .containerbutton{
   
     border: none;
-    width: 200px;
-    height: 80px;
-    background:#EFEFEF ;
+    width: 180px;
+    height: 70px;
+    background:#164B5F ;
     padding: 15px;
     border-radius: 15px;
     position: absolute;
@@ -388,13 +388,13 @@ form7{ /* Cuadro blanco de 3 tablitas */
 texto{
      background: #fff;
     width: 320px;
-    height: 70px;
+    height: 100px;
     border-radius: 0px;
     font-size:28px;
     padding:15px;
     font-family:'Nunito', sans-serif;
     box-shadow: 1px 1px 12px #a6a6a6 ;
-    font-weight: 40px;
+    font-weight: bolder;
     text-align:center;
     position: absolute;
     top: 110px;
@@ -406,13 +406,13 @@ background: #fff;
    width: 320px;
    height: 70px;
    border-radius: 0px;
-   font-size: 30px;
+   font-size: 25px;
    padding:15px;
    font-family:'Nunito', sans-serif;
-   font-weight: 40px;
+    font-weight: bolder;
    text-align:center;
    position: absolute;
-   top: 570px;
+   top: 420px;
    right: -150px;   
    box-shadow: 1px 1px 12px #a6a6a6;
 }
@@ -420,7 +420,7 @@ background: #fff;
 promedio{
 
     width: 320px;
-    height: 350px;
+    height: 185px;
     background: #fff;
     font-size: 140px;
     padding: 60px;
@@ -429,7 +429,7 @@ promedio{
     font-weight: 40px;
     text-align:center;
     position: absolute;
-    top: 190px;
+    top: 220px;
     right: -150px;
      box-shadow: 1px 1px 12px #a6a6a6 ;
     
@@ -508,6 +508,7 @@ table {
             color: #fff;
             font-size: 40px;
             font-weight: 30px;
+ 
     
     
           
