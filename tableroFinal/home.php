@@ -370,7 +370,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
     <p id="reloj" class="text-center"></p>
 
     <p id="date" class="text-center"></p>
-    <a href="logout.php"> Logout </a>
+    <a href="logout.php"> Cerrar sesión </a>
 
     <logo>
       <img src="logo_equipo.jpeg" width="100" height="80">
@@ -389,7 +389,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
 
 
     <form2>
-      <h1> Hello, <?php echo $_SESSION['nombre']; ?>
+      <h1> Hola, <?php echo $_SESSION['nombre']; ?>
         <br>
 
 
@@ -538,6 +538,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
           <tr>
 
           </tr>
+          <td style="font-family:'Nunito', sans-serif; font-size: 30px; font-weight: bolder;">Contenedores de color</td>
           <!-- PHP CODE TO FETCH DATA FROM ROWS-->
           <?php   // LOOP TILL END OF DATA 
           while ($rows = $resultado_color->fetch_assoc()) {
@@ -545,7 +546,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
             <tr>
 
 
-              <td style="font-family:'Nunito', sans-serif; font-size: 30px; font-weight: bolder;  "><?php echo $rows['color']; ?></td>
+              <td style="font-family:'Nunito', sans-serif; font-size: 30px; font-weight: bolder;"> <?php echo $rows['color']; ?></td>
 
             </tr>
           <?php
@@ -588,7 +589,7 @@ if (isset($_SESSION['id_usuario']) && ($_SESSION['username'])) {
       <div class="containerbutton">
         <button type="submit" ; onclick="window.location.href='http://192.168.68.107:1880/worldmap/'" ; style="font-family:'Nunito', sans-serif" ;>Mapa en vivo</button>
       </div>
-      <asignacion> Color asignado</asignacion>
+      <asignacion> Área asignada:</asignacion>
 
 
 

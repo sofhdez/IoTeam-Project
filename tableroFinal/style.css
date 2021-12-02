@@ -6,10 +6,11 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: column;
-    background-size: 1500px;
+    background-size: 2100px;
     background-position:top;
     background-position:0px;
-   
+    background-image: url("1.png") ;
+    background-repeat: no-repeat;
     
     
 }
@@ -69,7 +70,7 @@ form2{ /* Cuadro gris de HOME */
     width: 1300px;
     height: 650px;
     font-size: 20px;
-    background:#EFEFEF;
+    background:#F9FAFA;
     border-radius: 15px;
     padding: 30px;
     position: absolute;
@@ -142,7 +143,7 @@ label{
 
 button{
     float: right;
-    background: #02894B;
+    background: #164B5F;
     padding: 10px 20px;
     color:#fff;
     font-size: 15px;
@@ -373,9 +374,9 @@ form7{ /* Cuadro blanco de 3 tablitas */
 .containerbutton{
   
     border: none;
-    width: 200px;
-    height: 80px;
-    background:#EFEFEF ;
+    width: 180px;
+    height: 70px;
+    background:#164B5F ;
     padding: 15px;
     border-radius: 15px;
     position: absolute;
@@ -405,7 +406,7 @@ background: #fff;
    width: 320px;
    height: 70px;
    border-radius: 0px;
-   font-size: 30px;
+   font-size: 25px;
    padding:15px;
    font-family:'Nunito', sans-serif;
     font-weight: bolder;
